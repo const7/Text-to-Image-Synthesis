@@ -1,7 +1,5 @@
 from trainer import Trainer
 import argparse
-from PIL import Image
-import os
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--type", default='gan')
