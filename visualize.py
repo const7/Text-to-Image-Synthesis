@@ -1,9 +1,9 @@
 from visdom import Visdom
 import numpy as np
-import torchvision
-from PIL import ImageDraw, Image, ImageFont
-import torch
-import pdb
+# import torchvision
+# from PIL import ImageDraw, Image, ImageFont
+# import torch
+# import pdb
 
 class VisdomPlotter(object):
 
