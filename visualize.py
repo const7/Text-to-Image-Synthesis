@@ -10,7 +10,7 @@ class VisdomPlotter(object):
     """Plots to Visdom"""
 
     def __init__(self, env_name='gan'):
-        self.viz = Visdom()
+        self.viz = Visdom(port=10123)
         self.env = env_name
         self.plots = {}
 
